@@ -1,0 +1,15 @@
+/* ✅ Transition for smooth effect */
+.partner-link img {
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* ✅ Hover effect – थोड़ा light */
+.partner-link:hover img {
+  opacity: 0.7;
+  transform: scale(1.03); /* थोड़ा zoom effect (optional) */
+}
+
+/* ✅ Click (active) effect – और light */
+.partner-link:active img {
+  opacity: 0.5;
+}

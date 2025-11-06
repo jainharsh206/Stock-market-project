@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+.navbar {
+  position: fixed;     /* Fixed karne ke liye */
+  top: 0;              /* Top par chipka do */
+  left: 0;
+  width: 100%;         /* Full width */
+  z-index: 1000;       /* Content ke upar rahe */
+  background: #fff;    /* White ya apka background */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* optional shadow */
+}
+body {
+  padding-top: 80px; /* Navbar height jitna top padding, taaki content neeche push ho */
+}

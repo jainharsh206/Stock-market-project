@@ -1,0 +1,17 @@
+.navbar-nav .nav-link {
+  color: #4a4a4a; /* default color */
+  font-size: 15px;
+  margin: 0 12px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #1a73e8; /* hover पर blue */
+}
+
+/* Active page link */
+.navbar-nav .nav-link.active {
+  color: #1a73e8;
+  font-weight: 500;
+}

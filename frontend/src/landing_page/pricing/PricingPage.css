@@ -1,0 +1,254 @@
+/* src/landing_page/pricing/PricingPage.css */
+.table-container {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.table-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.table-container th,
+.table-container td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-container th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.free {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+
+  /* पूरी table के चारों ओर border */
+  border: 1px solid #ccc;
+}
+
+.table-container th,
+.table-container td {
+  padding: 15px 20px;
+  text-align: left;
+
+  /* हर cell के चारों ओर border */
+  border: 1px solid #ccc;
+}
+
+.table-container th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.free {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.table-container {
+  max-width: 900px; /* width control */
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* heading */
+.table-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Table itself */
+.table-container table {
+  width: 100%;
+  border-collapse: separate;  /* rounded corners के लिए separate */
+  border-spacing: 0;
+  font-size: 16px;
+  border: 1px solid #dcdcdc;  /* outer border */
+  border-radius: 8px;         /* rounded corner */
+  overflow: hidden;
+  background: #fff;
+}
+
+/* table headers */
+.table-container th {
+  background-color: #f3f4f6;
+  color: #333;
+  font-weight: 600;
+  padding: 14px 20px;
+  text-align: left;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* table cells */
+.table-container td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+/* last row bottom border remove */
+.table-container tr:last-child td {
+  border-bottom: none;
+}
+
+/* alternate rows */
+.table-container tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
+/* hover effect */
+.table-container tbody tr:hover td {
+  background-color: #f0f7ff;
+}
+
+/* free badge */
+.free {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.table-container {
+  margin: 30px auto;
+  max-width: 1000px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.table-container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-container th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.free {
+  background: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+}
+.table-container {
+  margin: 40px auto;            /* ऊपर-नीचे 40px spacing */
+  max-width: 1000px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Table Heading left align */
+.table-container h2 {
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;             /* heading को left align */
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-container th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.table-container tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.free {
+  background: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+

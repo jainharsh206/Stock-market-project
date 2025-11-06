@@ -1,0 +1,29 @@
+/* ✅ Company links */
+.footer-link {
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #1a73e8; /* Hover पर blue */
+}
+
+/* ✅ Bottom extra links (NSE, BSE, etc.) */
+.footer-extra-link {
+  color: gray;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-extra-link:hover {
+  color: #1a73e8; /* Hover पर blue */
+}
+
+/* अगर click (active) पर blue चाहिए तो */
+.footer-extra-link:active,
+.footer-link:active {
+  color: #1a73e8;
+}

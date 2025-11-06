@@ -1,0 +1,165 @@
+/* ─────────────── TOP HEADING ─────────────── */
+.signup-top-text {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 25px;
+  padding: 0 15px;
+  font-family: Arial, sans-serif;
+}
+
+.signup-top-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.signup-top-subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+/* ─────────────── MAIN SIGNUP AREA ─────────────── */
+.signup-main {
+  display: flex;
+  flex-direction: row;       /* image LEFT, form RIGHT */
+  justify-content: center;
+  align-items: center;
+  padding: 40px 7%;          /* कम padding */
+  flex-wrap: wrap;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+  gap: 20px;                 /* कम gap */
+}
+
+/* LEFT IMAGE SIDE */
+.signup-left {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* image को थोड़ा पास लाना */
+}
+
+.mockup-img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+}
+
+/* RIGHT FORM SIDE */
+.signup-right {
+  flex: 1;
+  max-width: 400px;
+  padding-left: 20px;        /* कम padding */
+  min-width: 280px;
+  text-align: left;
+}
+
+.signup-title {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.signup-subtitle {
+  margin-top: 6px;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 18px;
+}
+
+/* ─────────────── INPUT BOX ─────────────── */
+.mobile-input-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+
+.country-code {
+  padding: 12px;
+  background: #f9f9f9;
+  border-right: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.mobile-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 14px;
+}
+
+/* ─────────────── BUTTON ─────────────── */
+.otp-btn {
+  width: 100%;
+  padding: 14px;
+  background: #387ed1;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: background 0.3s ease;
+}
+
+.otp-btn:hover { background: #326bb2; }
+
+/* ─────────────── TERMS + NRI ─────────────── */
+.terms, .nri {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.terms a, .nri a {
+  color: #387ed1;
+  text-decoration: none;
+}
+
+/* ─────────────── RESPONSIVE ─────────────── */
+@media (max-width: 992px) {
+  .signup-main {
+    padding: 28px 5%;
+    gap: 15px;
+  }
+  .mockup-img { max-width: 420px; }
+}
+
+@media (max-width: 768px) {
+  .signup-main {
+    flex-direction: column;
+    padding: 20px 5%;
+    text-align: center;
+  }
+  .signup-left {
+    text-align: center;
+    justify-content: center;
+  }
+  .signup-right {
+    padding-left: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .signup-left img { max-width: 65%; }
+}
+
+.flag-icon {
+  width: 20px;   /* size adjust करो */
+  height: 25px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+
+
